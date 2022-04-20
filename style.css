@@ -55,15 +55,14 @@ h1 {
 
 button {
     background-color: var(--very-light-gray);
-    border: 1px solid white;
+    border: 1px solid var(--very-light-gray);
     border-radius: 30px;
     padding: 10px 25px;
     font-weight: 400;
 }
 
 button:hover {
-    background-color: transparent;
-    color: white;
+    background-color: hsla(0, 0%, 100%, 0.75);
 }
 
 .btn-orange {
