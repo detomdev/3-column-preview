@@ -49,6 +49,7 @@ h2 {
     color: var(--transparent-white);
     padding: 20px;
     max-width: 375px;
+    border-radius: 10px 10px 0 0;
 }
 
 button {
@@ -61,6 +62,7 @@ button {
 
 button:hover {
     background-color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
 }
 
 .btn-orange {
@@ -77,7 +79,6 @@ button:hover {
 
 .sedans {
     background-color: var(--bright-orange);
-    border-radius: 10px 10px 0 0;
     padding: 30px;
 }
 
@@ -89,7 +90,6 @@ button:hover {
 .luxury {
     background-color: var(--very-dark-cyan);
     padding: 30px;
-    border-radius: 0 0 10px 10px;
 }
 
 .attribution {
